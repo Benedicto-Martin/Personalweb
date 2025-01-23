@@ -1,0 +1,28 @@
+/* Profile section styling */
+.profile {
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end; /* Membuat konten di dalam .profile sejajar ke kanan */
+}
+
+.profile h1 {
+   font-size: 2em;
+   color: #333;
+   margin-bottom: 15px;
+   text-align: right; /* Agar teks judul juga rata kanan */
+}
+
+.profile img {
+   width: 50%; /* Mengurangi lebar gambar agar tidak memenuhi ruang */
+   float: right; /* Memindahkan gambar ke kanan */
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+.profile p {
+   font-size: 1.1em;
+   line-height: 1.6em;
+   color: #555;
+   text-align: right; /* Agar teks deskripsi juga rata kanan */
+}
